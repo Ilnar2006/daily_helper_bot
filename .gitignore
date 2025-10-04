@@ -1,0 +1,41 @@
+﻿# КОНФИГУРАЦИЯ - НИКОГДА НЕ КОММИТИТЬ!
+config.py
+.env
+*.env.local
+
+# ДАННЫЕ И ЛОГИ
+data/
+logs/
+*.log
+*.json
+*.db
+
+# ИСПОЛНЯЕМЫЕ ФАЙЛЫ
+*.exe
+*.bin
+*.out
+
+# C++ ФАЙЛЫ
+*.cpp
+*.o
+
+# ТЕСТОВЫЕ ФАЙЛЫ
+test.py
+geotest.py
+*test*
+*_test.py
+
+# PYTHON КЭШ
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# СИСТЕМНЫЕ
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
